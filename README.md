@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KFinder App Website
 
-## Getting Started
+![Build Status](https://img.shields.io/github/actions/workflow/status/robertwtucker/kfinderapp-site/ci.yml)
+![License](https://img.shields.io/github/license/robertwtucker/kfinderapp-site)
+![Open issues](https://img.shields.io/github/issues-raw/robertwtucker/kfinderapp-site)
+![Open pull requests](https://img.shields.io/github/issues-pr-raw/robertwtucker/kfinderapp-site)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is the source repository for the website supporting the KFinder mobile
+application. The live site can be viewed at [https://kfinderapp.com](https://kfinderapp.com).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Since this repository is published directly to [Vercel](https://vercel.com) via
+their integration, there is only one long-running branch. Minor changes are
+generally applied directly to `master`. Larger, more complex changes are
+undertaken in a feature-branch before being merged with a push request.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Roadmap
 
-## Learn More
+See the [open issues](https://github.com/robertwtucker/kfinderapp-site/issues) for a list of proposed features (and known issues).
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Have a question or comment? Feel free to [open an issue](https://github.com/robertwtucker/kfinderapp-site/issues/new)
+or [ask me on X](https://x.com/robertwtucker).
