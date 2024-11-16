@@ -11,7 +11,7 @@ export default function Page() {
       <h1 className="my-4 text-2xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none">
         Terms and Conditions
       </h1>
-      <p className="text-muted-foreground my-5">Last updated: November 02, 2024</p>
+      <p className="text-muted-foreground my-5">Last updated: November 15, 2024</p>
       <p>Please read these terms and conditions carefully before using Our Service.</p>
       <h2 className="my-4 text-xl font-bold tracking-tighter sm:text-3xl">
         Interpretation and Definitions
@@ -34,8 +34,8 @@ export default function Page() {
         <li>
           <p>
             <strong>Application Store</strong> means the digital distribution service operated and
-            developed by Apple Inc. (Apple App Store) or Google Inc. (Google Play Store) in which
-            the Application has been downloaded.
+            developed by Apple Inc. (Apple App Store) from which the Application has been
+            downloaded.
           </p>
         </li>
         <li>
@@ -95,6 +95,16 @@ export default function Page() {
         These are the Terms and Conditions governing the use of this Service and the agreement that
         operates between You and the Company. These Terms and Conditions set out the rights and
         obligations of all users regarding the use of the Service.
+      </p>
+      <p>
+        The Application is licensed to You under the terms of the Application Store&apos;s{' '}
+        <Link
+          className="underline-offset-4 hover:underline"
+          href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+        >
+          End User License Agreement
+        </Link>
+        {'.'}
       </p>
       <p>
         Your access to and use of the Service is conditioned on Your acceptance of and compliance
@@ -271,12 +281,8 @@ export default function Page() {
       </p>
       <h2 className="my-4 text-xl font-bold tracking-tighter sm:text-3xl">Contact Us</h2>
       <p>
-        If you have any questions about these Terms and Conditions, You can contact us by visiting
-        this page on our website:{' '}
-        <Link className="underline-offset-4 hover:underline" href="/contact">
-          https://kfinderapp.com/contact
-        </Link>
-        {'.'}
+        If you have any questions about these Terms and Conditions, You can contact us by emailing:
+        robertwtucker@gmail.com
       </p>
     </div>
   )
