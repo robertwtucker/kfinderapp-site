@@ -3,8 +3,6 @@
  * SPDX-License-Identifier: MIT
  */
 
-import Link from '@/components/Link'
-
 export default function Page() {
   return (
     <div className="mx-20 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -12,7 +10,7 @@ export default function Page() {
       <h1 className="my-4 text-2xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none">
         Disclaimer
       </h1>
-      <p className="text-muted-foreground my-5">Last updated: November 02, 2024</p>
+      <p className="text-muted-foreground my-5">Last updated: November 15, 2024</p>
       <h2 className="my-4 text-xl font-bold tracking-tighter sm:text-3xl">
         Interpretation and Definitions
       </h2>
@@ -198,12 +196,8 @@ export default function Page() {
       </p>
       <h2 className="my-4 text-xl font-bold tracking-tighter sm:text-3xl">Contact Us</h2>
       <p>
-        If you have any questions about this Disclaimer, You can contact Us by visiting this page on
-        our website:{' '}
-        <Link className="underline-offset-4 hover:underline" href="/contact">
-          https://kfinderapp.com/contact
-        </Link>
-        {'.'}
+        If you have any questions about this Disclaimer, You can contact Us by emailing:
+        robertwtucker@gmail.com
       </p>
       {/* </section> */}
     </div>
