@@ -21,6 +21,9 @@ export default function Component() {
         <Link className="text-sm font-medium underline-offset-4 hover:underline" href="/#download">
           Download
         </Link>
+        <Link className="text-sm font-medium underline-offset-4 hover:underline" href="/support">
+          Support
+        </Link>
       </nav>
     </header>
   )
