@@ -3,7 +3,13 @@
  * SPDX-License-Identifier: MIT
  */
 
+import type { Metadata } from 'next'
+
 import Link from '@/components/Link'
+
+export const metadata: Metadata = {
+  title: 'Terms of Service',
+}
 
 export default function Page() {
   return (
