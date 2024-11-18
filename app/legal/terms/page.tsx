@@ -5,7 +5,7 @@
 
 import type { Metadata } from 'next'
 
-import Link from '@/components/Link'
+import Link from '@/components/link'
 
 export const metadata: Metadata = {
   title: 'Terms of Service',

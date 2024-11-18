@@ -6,7 +6,7 @@
 import Image from 'next/image'
 import { LeafyGreen, Shield, Smartphone } from 'lucide-react'
 
-import Link from '@/components/Link'
+import Link from '@/components/link'
 
 export default function Component() {
   return (
