@@ -3,6 +3,12 @@
  * SPDX-License-Identifier: MIT
  */
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Disclaimer',
+}
+
 export default function Page() {
   return (
     <div className="mx-20 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">

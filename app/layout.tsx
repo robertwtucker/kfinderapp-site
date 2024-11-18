@@ -5,14 +5,23 @@
 
 import type { Metadata } from 'next'
 
+import siteConfig from '@/config/site'
+import { Analytics } from '@/components/analytics'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'KFinder App',
-  description: 'An iOS application',
+  title: {
+    default: siteConfig.title,
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  icons: {
+    icon: siteConfig.icon,
+  },
+  metadataBase: new URL(siteConfig.baseUrl),
 }
 
 export default function RootLayout({
@@ -22,6 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Analytics analyticsConfig={siteConfig.analytics} />
+      </head>
       <body>
         <div className="flex min-h-dvh flex-col">
           <Header />
