@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import Link from './Link'
+import Link from './link'
 
 export default function Component() {
   return (

@@ -7,8 +7,8 @@ import type { Metadata } from 'next'
 
 import siteConfig from '@/config/site'
 import { Analytics } from '@/components/analytics'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
+import Footer from '@/components/footer'
+import Header from '@/components/header'
 
 import './globals.css'
 
