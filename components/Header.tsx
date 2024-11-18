@@ -15,10 +15,10 @@ export default function Component() {
         <span className="font-bold">KFinder</span>
       </Link>
       <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Link className="text-sm font-medium underline-offset-4 hover:underline" href="#features">
+        <Link className="text-sm font-medium underline-offset-4 hover:underline" href="/#features">
           Features
         </Link>
-        <Link className="text-sm font-medium underline-offset-4 hover:underline" href="#download">
+        <Link className="text-sm font-medium underline-offset-4 hover:underline" href="/#download">
           Download
         </Link>
       </nav>
