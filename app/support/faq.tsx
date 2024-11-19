@@ -29,11 +29,11 @@ export default function FAQPage() {
   ]
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-center mb-6">Frequently Asked Questions</h1>
-      <p className="text-center text-muted-foreground mb-8">
-        Find answers to common questions about KFinder. If you can't find what you're looking for,
-        please contact our support team.
+    <div className="mx-auto max-w-3xl px-4 py-12">
+      <h1 className="mb-6 text-center text-3xl font-bold">Frequently Asked Questions</h1>
+      <p className="text-muted-foreground mb-8 text-center">
+        Find answers to common questions about KFinder. If you can&apos;t find what you&apos;re
+        looking for, please contact our support team.
       </p>
       <Accordion type="single" collapsible className="w-full">
         {faqs.map((faq, index) => (
