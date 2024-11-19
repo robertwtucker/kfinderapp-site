@@ -326,7 +326,7 @@ export default function Page() {
         <h2 className="my-4 text-xl font-bold tracking-tighter sm:text-3xl">Contact Us</h2>
         <p>
           If you have any questions about this Privacy Policy, You can contact Us by emailing:
-          robertwtucker@gmail.com
+          support@kfinderapp.com
         </p>
       </section>
     </div>
