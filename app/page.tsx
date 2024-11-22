@@ -61,15 +61,16 @@ export default function Component() {
               <LeafyGreen className="text-primary mb-4 size-12" />
               <h3 className="mb-2 text-xl font-bold">Nutrient Search</h3>
               <p className="text-muted-foreground">
-                Get detailed food composition breakdowns from the USDA&apos;s Food and Nutrient
-                Database for Dietary Studies (FNDDS).
+                Get detailed food composition breakdowns from the USDA&apos;s FoodData Central
+                database.
               </p>
             </div>
             <div className="flex flex-col items-center text-center">
               <Shield className="text-primary mb-4 size-12" />
               <h3 className="mb-2 text-xl font-bold">Secure & Private</h3>
               <p className="text-muted-foreground">
-                Your private data is encrypted and stored securely in iCloud&#8482;.
+                Your private data is encrypted and stored securely in iCloud
+                <sup className="superscript">&reg;</sup>.
               </p>
             </div>
             <div className="flex flex-col items-center text-center">
@@ -106,6 +107,11 @@ export default function Component() {
               {/*   <Download className="mr-2 h-4 w-4" /> */}
               {/*   Google Play */}
               {/* </Link> */}
+            </div>
+            <div className="flex pt-8">
+              <p className="text-muted-foreground text-xs">
+                App Store and iCloud are registered trademarks of Apple Inc.
+              </p>
             </div>
           </div>
         </div>
